@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int firstNumber, secondNumber;
-        firstNumber = in.nextInt();
-        secondNumber = in.nextInt();
+        Long firstNumber, secondNumber;
+        firstNumber = in.nextLong();
+        secondNumber = in.nextLong();
 
         Summator mySummator = new Summator();
         mySummator.setFirstNumber(firstNumber);

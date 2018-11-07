@@ -1,13 +1,13 @@
 public class Summator {
-    private int firstNumber, secondNumber;
+    private Long firstNumber, secondNumber;
 
-    public void setFirstNumber(int firstNumber){
+    public void setFirstNumber(Long firstNumber){
         this.firstNumber = firstNumber;
     };
-    public void setSecondNumber(int secondNumber){
+    public void setSecondNumber(Long secondNumber){
         this.secondNumber = secondNumber;
     };
-    public int sum(){
+    public Long sum(){
         return firstNumber + secondNumber;
 
     }
